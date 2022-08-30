@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codingwithjks.composeyt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComposeYt">
+        <activity android:name=".composeTutorials.MainActivity" />
+        <activity android:name=".composeTutorials.LoginActivity" />
+        <activity android:name=".todo.data.ui.TodoActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".Retrofit.ui.RetrofitActivity" />
+        <activity android:name=".composeTutorials.states.StateActivity" />
+        <activity android:name=".viewpager.OnBoardingActivity" />
+        <activity
+            android:name=".composeTutorials.components.ComposeActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ComposeYt.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

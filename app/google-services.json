@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "946856179378",
+    "project_id": "ci-and-cd-dedc1",
+    "storage_bucket": "ci-and-cd-dedc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946856179378:android:a32a53a4a3e6418b7ebbab",
+        "android_client_info": {
+          "package_name": "com.codingwithjks.composeyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946856179378-idtmddv5fo5b5nhjo5ccpiekt7otql5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChW8bFcl4nTppb7qtEf8FJzfVDdQPKVHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946856179378-idtmddv5fo5b5nhjo5ccpiekt7otql5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
